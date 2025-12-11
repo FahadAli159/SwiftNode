@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/fiveeight/SwiftNode/build",
+  "command": "/usr/bin/g++-11 -I/home/fiveeight/SwiftNode/include -g -std=gnu++11 -o CMakeFiles/SwiftNode.dir/src/main.cpp.o -c /home/fiveeight/SwiftNode/src/main.cpp",
+  "file": "/home/fiveeight/SwiftNode/src/main.cpp",
+  "output": "CMakeFiles/SwiftNode.dir/src/main.cpp.o"
+}
+]

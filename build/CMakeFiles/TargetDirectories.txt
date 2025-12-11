@@ -1,0 +1,3 @@
+/home/fiveeight/SwiftNode/build/CMakeFiles/SwiftNode.dir
+/home/fiveeight/SwiftNode/build/CMakeFiles/edit_cache.dir
+/home/fiveeight/SwiftNode/build/CMakeFiles/rebuild_cache.dir
