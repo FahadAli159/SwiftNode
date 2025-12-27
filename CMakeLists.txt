@@ -6,4 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(include)
 
-add_executable(SwiftNode src/main.cpp)
+
+find_package(Threads REQUIRED)
+
+add_executable(SwiftNode src/main.cpp src/PeerDiscovery.cpp src/NetworkManager.cpp)
+target_link_libraries(SwiftNode Threads::Threads)

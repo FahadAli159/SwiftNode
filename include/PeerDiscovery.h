@@ -3,6 +3,7 @@
 #include <string>
 #include <mutex>
 #include <atomic>
+#include <thread>
 
 class PeerDiscovery {
 public:
