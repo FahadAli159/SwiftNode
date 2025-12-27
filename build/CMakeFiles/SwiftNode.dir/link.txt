@@ -1,0 +1,1 @@
+/usr/bin/g++-14 -Wl,--dependency-file=CMakeFiles/SwiftNode.dir/link.d CMakeFiles/SwiftNode.dir/src/main.cpp.o CMakeFiles/SwiftNode.dir/src/PeerDiscovery.cpp.o CMakeFiles/SwiftNode.dir/src/NetworkManager.cpp.o -o SwiftNode
