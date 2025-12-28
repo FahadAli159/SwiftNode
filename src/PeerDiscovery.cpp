@@ -81,8 +81,9 @@ void PeerDiscovery::listener() {
                 std::string peerIp = inet_ntoa(senderAddr.sin_addr);
                 if (peerPort != myPort) {
                     std::lock_guard<std::mutex> lock(peersMutex);
-                    discoveredPeers.insert(peerIp + ":" + std::to_string(peerPort));
-                    std::cout << "Discovered peer: " << peerIp << ":" << peerPort << std::endl;
+                    if (discoveredPeers.insert(peerIp + ":" + std::to_string(peerPort)).second) {
+                        std::cout << "Discovered peer: " << peerIp << ":" << peerPort << std::endl;
+                    }
                 }
             }
         }
